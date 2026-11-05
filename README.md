@@ -1,26 +1,37 @@
-# RaceOverlay
+<p align="center"><img src="logo.svg" width="120" alt="Lollipop"></p>
 
-Overlays for iRacing: standings, relative, fuel, track map, spotter bars, delta bar, wind and more.
+<h1 align="center">Lollipop</h1>
+<p align="center"><b>Serious data. Sweet wrapper.</b><br>Overlays for iRacing, on your screen while you drive and in OBS for your viewers.</p>
 
 This page holds the downloads only.
 
+## What's in it
+
+- **Timing:** Relative, Standings and Race info (flag, session, laps, incidents, weather, SOF)
+- **Fuel:** Fuel simple, Fuel buddy, Fuel assistant (fuel saving) and the Fuel runway with your stop and pit window
+- **Driving:** track map, spotter bars, delta bar, wind, pit lane and pedal traces, with a reference lap from your own `.ibt` file
+- **Pitwall:** a full-screen race-engineer page for a spare monitor, with night colours when the sun sets in iRacing
+- **Stream:** one OBS layout for every overlay, the Garage cover that hides your setup screen, banners, Twitch chat and the iRacePlan stint plan
+
 ## Install
 
-1. Open **[Releases](https://github.com/freerk-tech/RaceOverlay-releases/releases/latest)** and download `RaceOverlaySetup-….exe`.
+1. Open **[Releases](../../releases/latest)** and download `LollipopSetup-….exe`.
 2. Run it. Windows may warn "Windows protected your PC" because the app isn't signed yet: click **More info → Run anyway**.
-3. RaceOverlay starts in the tray (bottom right, next to the clock). Double-click its icon to open the window and turn overlays on or off.
+3. Lollipop starts in the tray (bottom right, next to the clock). Double-click its icon to open the window and turn overlays on or off.
 
 Nothing else needs installing: .NET is inside the app, and WebView2 comes with Windows.
 
-## Using iRacePlan?
+## Coming from RaceOverlay?
 
-The Stint plan overlay shows your team's iRacePlan plan during a race: the stint now, who's next and when. Create your own API key on [iRacePlan's API keys page](https://iraceplan.com/settings/api_keys), paste it on the Stint plan page in the RaceOverlay window and click Save. Each driver uses their own key; it stays on your PC.
+Lollipop used to be called RaceOverlay (up to 0.3.19). Just update: your settings, layouts and pictures come along by themselves, and the old RaceOverlay folder and shortcuts are removed. Each release also carries `RaceOverlaySetup-….exe`, the same setup under the old name, for the RaceOverlay updater.
 
 ## Updates
 
-From 0.2.0 on, RaceOverlay checks this page for a new version. When there is one, you get a notice and an **Install update** button on Home. It never updates while you're on track.
+Lollipop checks this page for a new version. When there is one, you get a notice and an **Install update** button on Home. It never updates while you're on track.
 
-Coming from 0.1.0? Install the latest version by hand once; after that it updates itself.
+## Using iRacePlan?
+
+The Stint plan overlay shows your team's iRacePlan plan during a race: the stint now, who's next and when. Create your own API key on [iRacePlan's API keys page](https://iraceplan.com/settings/api_keys), paste it on the Stint plan page in the Lollipop window and click Save. Each driver uses their own key; it stays on your PC.
 
 ## Feedback
 
