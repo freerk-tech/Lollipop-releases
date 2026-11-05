@@ -21,13 +21,13 @@ This page holds the downloads only.
 
 Nothing else needs installing: .NET is inside the app, and WebView2 comes with Windows.
 
-## Coming from RaceOverlay?
+## Coming from RaceOverlay, or Lollipop 0.4.1 or older?
 
-Lollipop used to be called RaceOverlay (up to 0.3.19). Just update: your settings, layouts and pictures come along by themselves, and the old RaceOverlay folder and shortcuts are removed. Each release also carries `RaceOverlaySetup-….exe`, the same setup under the old name, for the RaceOverlay updater.
+Install the latest version by hand once: download it from **[Releases](../../releases/latest)** and run it. This page moved, so older versions can see a new version but can't install it themselves. Your settings, layouts and pictures stay as they are; coming from RaceOverlay, they move over by themselves and the old RaceOverlay folder and shortcuts are removed.
 
 ## Updates
 
-Lollipop checks this page for a new version. When there is one, you get a notice and an **Install update** button on Home. It never updates while you're on track.
+From 0.4.2 on, Lollipop checks this page for a new version. When there is one, you get a notice and an **Install update** button on Home. It never updates while you're on track.
 
 ## Using iRacePlan?
 
